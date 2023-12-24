@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "project-register"
+    bucket         = "wmao-project-register"
     key            = "jenkins/terraform.tfstate"
     region         = "us-east-2"
 
